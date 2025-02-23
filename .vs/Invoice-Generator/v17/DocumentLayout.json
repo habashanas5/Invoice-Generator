@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\c#\\Invoice-Generator\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AAAF4D93-E40B-4618-9B03-2AEA4BCB18F3}|Invoice-Generator.csproj|d:\\c#\\invoice-generator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AAAF4D93-E40B-4618-9B03-2AEA4BCB18F3}|Invoice-Generator.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAF4D93-E40B-4618-9B03-2AEA4BCB18F3}|Invoice-Generator.csproj|d:\\c#\\invoice-generator\\pages\\invoices\\invoicedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAAF4D93-E40B-4618-9B03-2AEA4BCB18F3}|Invoice-Generator.csproj|solutionrelative:pages\\invoices\\invoicedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAAF4D93-E40B-4618-9B03-2AEA4BCB18F3}|Invoice-Generator.csproj|d:\\c#\\invoice-generator\\pages\\invoices\\invoicehistorydetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAAF4D93-E40B-4618-9B03-2AEA4BCB18F3}|Invoice-Generator.csproj|solutionrelative:pages\\invoices\\invoicehistorydetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AAAF4D93-E40B-4618-9B03-2AEA4BCB18F3}|Invoice-Generator.csproj|d:\\c#\\invoice-generator\\pages\\invoices\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AAAF4D93-E40B-4618-9B03-2AEA4BCB18F3}|Invoice-Generator.csproj|solutionrelative:pages\\invoices\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -35,6 +47,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\c#\\Invoice-Generator\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\c#\\Invoice-Generator\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-23T07:21:09.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InvoiceDetails.cshtml",
+              "DocumentMoniker": "D:\\c#\\Invoice-Generator\\Pages\\Invoices\\InvoiceDetails.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Invoices\\InvoiceDetails.cshtml",
+              "ToolTip": "D:\\c#\\Invoice-Generator\\Pages\\Invoices\\InvoiceDetails.cshtml",
+              "RelativeToolTip": "Pages\\Invoices\\InvoiceDetails.cshtml",
+              "ViewState": "AQIAAE8AAAAANjMzMzMhwCwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T07:13:18.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InvoiceHistoryDetails.cshtml",
+              "DocumentMoniker": "D:\\c#\\Invoice-Generator\\Pages\\Invoices\\InvoiceHistoryDetails.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Invoices\\InvoiceHistoryDetails.cshtml",
+              "ToolTip": "D:\\c#\\Invoice-Generator\\Pages\\Invoices\\InvoiceHistoryDetails.cshtml",
+              "RelativeToolTip": "Pages\\Invoices\\InvoiceHistoryDetails.cshtml",
+              "ViewState": "AQIAAO4AAAAAAAAAAAAowAABAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T07:04:04.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\c#\\Invoice-Generator\\Pages\\Invoices\\Create.cshtml",
               "RelativeDocumentMoniker": "Pages\\Invoices\\Create.cshtml",
@@ -42,12 +92,11 @@
               "RelativeToolTip": "Pages\\Invoices\\Create.cshtml",
               "ViewState": "AQIAAMkBAAAAAAAAAACgvdcBAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T06:17:43.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-22T06:17:43.584Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "site.css",
               "DocumentMoniker": "D:\\c#\\Invoice-Generator\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -55,8 +104,7 @@
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AQIAAKYBAAAAAAAAAAAiwLkBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-21T08:44:49.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T08:44:49.744Z"
             }
           ]
         }

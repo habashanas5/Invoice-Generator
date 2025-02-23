@@ -42,6 +42,11 @@
             text-align: right;
         }
 
+        .table-responsive {
+            overflow-x: auto;
+            width: 100%;
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
@@ -220,27 +225,29 @@
                     </dl>
 
                     <h5 class="mt-4">Invoice Items</h5>
-                    <table class="table table-bordered">
-                        <thead>
-                            <tr>
-                                <th>Description</th>
-                                <th style="text-align:center">Quantity</th>
-                                <th style="text-align:center">Rate</th>
-                                <th style="text-align:center">Total</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            @foreach (var item in Model.Invoice.InvoiceItems)
-                            {
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
                                 <tr>
-                                    <td>@item.Description</td>
-                                    <td style="text-align:center">@item.Quantity</td>
-                                    <td style="text-align:center"> @Model.Invoice.Currency @item.Rate.ToString("N2")</td>
-                                    <td style="text-align:center">@Model.Invoice.Currency @item.Total.ToString("N2")</td>
+                                    <th>Description</th>
+                                    <th style="text-align:center">Quantity</th>
+                                    <th style="text-align:center">Rate</th>
+                                    <th style="text-align:center">Total</th>
                                 </tr>
-                            }
-                        </tbody>
-                    </table>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.Invoice.InvoiceItems)
+                                {
+                                    <tr>
+                                        <td>@item.Description</td>
+                                        <td style="text-align:center">@item.Quantity</td>
+                                        <td style="text-align:center"> @Model.Invoice.Currency @item.Rate.ToString("N2")</td>
+                                        <td style="text-align:center">@Model.Invoice.Currency @item.Total.ToString("N2")</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
                 <div class="card-footer">
                     <a asp-page="/Invoices/InvoicesList" class="btn btn-secondary">Back to List</a>
